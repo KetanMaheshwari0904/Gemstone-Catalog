@@ -39,5 +39,5 @@ fetch(SHEET_URL)
       `Please let me know availability and details.`;
 
     document.getElementById("whatsapp-btn").href =
-      `https://wa.me/917977196941?text=${message}`;
+      `https://wa.me/917977136941?text=${message}`;
   });
