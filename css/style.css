@@ -149,3 +149,41 @@ a {
   font-weight: 600;
   color: var(--royal-green);
 }
+/* ---------- CARD CTA UPGRADE ---------- */
+
+.cta {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--royal-green);
+  position: relative;
+}
+
+.cta::after {
+  content: " →";
+  transition: transform 0.3s ease;
+}
+
+.card:hover .cta::after {
+  transform: translateX(6px);
+}
+
+/* ---------- CARD TEXT HIERARCHY ---------- */
+
+.card-info h3 {
+  line-height: 1.4;
+}
+
+.card-info p {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+.grid {
+  gap: 3rem;
+}
+.card a {
+  display: block;
+}
