@@ -3,53 +3,80 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>NaturalGems | Fine & Natural Gemstones</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Main CSS -->
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
-  <header>
-    <div class="container">
-      <h1>NaturalGems</h1>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">NaturalGems</h1>
     </div>
   </header>
 
-<main class="container">
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Natural & Certified Gemstones</h2>
+      <p>Timeless stones · Ethically sourced · Curated with expertise</p>
 
-  <section class="grid">
-    
-   <div class="card">
-  <a href="product.html?id=ruby" style="text-decoration:none; color:inherit;">
-    <img src="https://via.placeholder.com/400x400" alt="Ruby">
-    <h2>Natural Ruby</h2>
-    <p>2.10 Carat · Burma</p>
-  </a>
-</div>
-
-
-  <div class="card">
-  <a href="product.html?id=emerald" style="text-decoration:none; color:inherit;">
-    <img src="https://via.placeholder.com/400x400" alt="Emerald">
-    <h2>Natural Emerald</h2>
-    <p>2.10 Carat · Burma</p>
-  </a>
-</div>
-
-
-<div class="card">
-  <a href="product.html?id=sapphire" style="text-decoration:none; color:inherit;">
-    <img src="https://via.placeholder.com/400x400" alt="Sapphire">
-    <h2>Natural Sapphire</h2>
-    <p>2.10 Carat · Burma</p>
-  </a>
-</div>
-
-
+      <a href="#products" class="hero-btn">Explore Collection</a>
+    </div>
   </section>
 
-</main>
-<script src="js/catalog.js"></script>
+  <!-- PRODUCT SECTION -->
+  <main class="container">
+    <section id="products" class="product-section">
+      <div class="grid">
 
+        <div class="card">
+          <a href="product.html?id=ruby">
+            <img src="https://via.placeholder.com/400x400" alt="Ruby">
+            <div class="card-info">
+              <h3>Natural Ruby</h3>
+              <p>2.10 Carat · Burma</p>
+              <span class="cta">Enquire on WhatsApp</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="product.html?id=emerald">
+            <img src="https://via.placeholder.com/400x400" alt="Emerald">
+            <div class="card-info">
+              <h3>Natural Emerald</h3>
+              <p>2.10 Carat · Burma</p>
+              <span class="cta">Enquire on WhatsApp</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="product.html?id=sapphire">
+            <img src="https://via.placeholder.com/400x400" alt="Sapphire">
+            <div class="card-info">
+              <h3>Natural Sapphire</h3>
+              <p>2.10 Carat · Burma</p>
+              <span class="cta">Enquire on WhatsApp</span>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- JS -->
+  <script src="js/catalog.js"></script>
 
 </body>
 </html>
+
